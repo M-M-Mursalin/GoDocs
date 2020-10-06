@@ -1,0 +1,226 @@
+/* Default css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* nav start  */
+.header-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #222222;
+    font-weight: 600;
+    padding: 0 10px;
+    transition: .4s;
+}
+.nav-button-active{
+    display: inline-block;
+    padding: 5px 20px;
+    background: #ff0043;
+    font-weight: 600;
+    color: #fff;
+    transition: .4s;
+}
+.nav-button-active:hover{
+    color: #fff;
+    background: #c40034;
+}
+.nav-button{
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid #c40034;
+    font-weight: 600;
+    margin-right: 10px;
+    color: #ff0043;
+    transition: .4s;
+}
+.nav-button:hover{
+    background: #c40034;
+    color: #fff;
+}
+.header-menu li a:hover{
+    color: #ff0043;
+}
+/* slider-section start  */
+.slider-section{
+    height: 80vh;
+}
+.slider-text , .slider-pic{
+    padding-top: 100px;
+}
+.template-text{
+    font-weight: 800;
+    font-size: 50px;
+}
+.slider-text p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.slider-input input{
+    border: transparent;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.slider-input button{
+    background: #ff0043;
+    padding: 10px 20px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+/* topic-section start  */
+.topic-item{
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+.topic-item span {
+    width: 65px;
+    height: 55px;
+    background: #ff0043;
+    display: block;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.topic-title{
+    font-weight: 700;
+    font-size: 25px;
+}
+.topic-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+}
+/* question section start  */
+.update{
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 10px;
+}
+.update-heading{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.update-text{
+    line-height: 27px;
+}
+.update-text a{
+    color: #ff0043;
+}
+/* find-section start  */
+.find-content{
+    padding-top: 100px;
+}
+.find-text{
+    font-size: 20px;
+}
+/* footer start  */
+.footer-middle{
+    text-align: center;
+}
+.footer-right ul{
+    justify-content: flex-end;
+}
+.footer-widget ul{
+    list-style: none;
+}
+.footer-widget ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.footer-left ul li a{
+    color: #666;
+    font-size: 18px;
+    transition: .4s;
+}
+.footer-left ul li a:hover{
+    color: #ff0043;
+}
+.footer-right ul li a{
+    color: #ff0043;
+    font-size: 25px;
+    transition: .4s;
+}
+.footer-right ul li a:hover{
+    color: #101010;
+}
+.footer-credit{
+    font-size: 15px;
+    color: #999;
+    font-weight: normal;
+}
+/* tab start  */
+.tab-drop-down{
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    list-style: none;
+    background: #fff;
+    transform: translateY(200px);
+    transition: .4s;
+}
+.tab-drop-down li a{
+    color: #777 !important;
+    border-left: none;
+}
+.basic-item li{
+    position: relative;
+}
+.basic-item li a{
+    color: #101010;
+    font-weight: 600;
+}
+.basic-item li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    left: 20px;
+    transform: translateY(0);
+}
+.tab-active a{
+    border-left: 2px solid #ff0043;
+    font-weight: 600;
+    font-size: 18px;
+}
+.basic-button{
+    padding: 20px 0;
+}
+.basic-button a{
+    display: inline-block;
+    color: #ff0043;
+    text-decoration: none;
+    font-weight: 600;
+}
+.bs-1 i{
+    margin-right: 10px;
+}
+.bs-2 i{
+    margin-left: 10px;
+}
+.nav-item .active{
+    color: #ff0043;
+}
+.template-text span{
+    color: #ff0043;
+}
+.search-text{
+    font-weight: 700;
+}
