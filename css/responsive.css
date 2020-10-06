@@ -7,6 +7,9 @@
 
 /* 996px start   */
 @media (max-width: 996px){
+    .slider-section {
+    height: 70vh;
+    }
     .template-text{
         font-size: 35px;
     }
@@ -39,10 +42,16 @@
     .slider-pic{
         display: none;
     }
+    .slider-section {
+    height: 60vh;
+    }
 }
 /* 486px start  */
 @media (max-width: 486px){
     .template-text{
         font-size: 28px;
+    }
+    .slider-section {
+    height: 50vh;
     }
 }
